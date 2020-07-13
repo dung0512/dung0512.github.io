@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsivefile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="page-wrap">
@@ -27,7 +29,7 @@
                         <li class="logo">
                             <a href="#" class="img-logo"><img src=".idea/image/logo_test.png" style="float:left; width: 50px; height: 50px; object-fit: cover"></a>
                             <div class="logo-content">
-                                <span>BỆNH VIỆN Y DƯỢC THÀNH PHỐ HỒ CHÍ MINH<sup>®</sup></span>
+                                <span>BỆNH VIỆN Y DƯỢC TP.HỒ CHÍ MINH<sup>®</sup></span>
                                 <span class="span-2">UNIVERSITY MEDICAL CENTER HCMC</span>
                                 <span class="span-3">Tiên phong-Thấu hiểu-Chuẩn mực-An toàn</span>
                             </div>
@@ -44,7 +46,7 @@
                                 style="border: 1px solid #307be7 ; border-radius: 99px;">
                                     CHỌN DỊCH VỤ
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 200px; box-shadow: none; ">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="  ; box-shadow: none;">
                                     <a class="dropdown-item" href="#">ĐẶT LỊCH THEO BÁC SỸ</a>
                                     <hr>
                                     <a class="dropdown-item" href="#">ĐẶT LỊCH THEO NGÀY</a>
@@ -56,6 +58,94 @@
                                 </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="nav-mobile">
+                <div class="container d-flex">
+                    <div class="row ">
+                        <button class="menu-toggler opened">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="first">
+                            <li>
+                                <a href="#">
+                                    <img src=".idea/image/logo_test.png" style="height: 46px;">
+                                </a>
+                            </li>
+                            <li class="content">
+                                <span><strong>BỆNH VIỆN Y DƯỢC TP.HỒ CHÍ MINH</strong><sup>®</sup></span>
+                                <span>UNIVERSITY MEDICAL CENTER HCMC</span>
+                                <span >Tiên phong-Thấu hiểu-Chuẩn mực-An toàn</span>
+                            </li>
+                        </ul>
+                        <div class="black-screen"></div>
+                        <ul class="menu-collapse">
+                            <div class="dangnhap">
+                               <i class="fas fa-users" ></i>
+                               <a href="#" style="cursor: pointer">Đăng nhập</a>
+                            </div>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-home fa-xs"></i>
+                                            Trang chủ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-black-tie"></i>
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-circle-notch"></i>
+                                            Quy trình
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-book"></i>
+                                            Hướng dẫn sử dụng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-question-circle"></i>
+                                            Thắc mắc
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-envelope"></i>
+                                            Liên hệ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub-support">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-phone"></i>
+                                            1900 2267
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-envelope"></i>
+                                            Hotro@Mepro.com.vn
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
@@ -71,37 +161,283 @@
                             <span aria-hidden="true">x</span>
                         </button>
                     </div>
-
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img  class="d-block w-100" src=".idea/image/1529906632.jpg" alt="" >
-                            </div>
-                            <div class="carousel-item">
-                                <img  class="d-block w-100" src=".idea/image/1530088265.jpg" alt="" >
-                            </div>
-                            <div class="carousel-item">
-                                <img  class="d-block w-100" src=".idea/image/1530088286.jpg" alt="k" >
-                            </div>
-                            <div class="carousel-item">
-                                <img  class="d-block w-100" src=".idea/image/1530088303.jpg" alt="" >
-                            </div>
-                            <div class="carousel-item">
-                                <img  class="d-block w-100" src=".idea/image/1530088322.jpg" alt="" w>
-                            </div>
-                        </div >
+                    <div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img  class="d-block w-100 " src=".idea/image/1529906632.jpg" alt="" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="d-block w-100" src=".idea/image/1530088265.jpg" alt="" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="d-block w-100" src=".idea/image/1530088286.jpg" alt="k" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="d-block w-100" src=".idea/image/1530088303.jpg" alt="" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="d-block w-100" src=".idea/image/1530088322.jpg" alt="" w>
+                                </div>
+                            </div >
+                        </div>
+                        <div class="list-dv-khambenh">
+                            <ul>
+                                <li><a href="#" class="btn" >KHÁM THEO BÁC SỸ</a></li>
+                                <li><a href="#" class="btn" >KHÁM THEO NGÀY</a></li>
+                                <li><a href="#" class="btn">LỊCH TÁI KHÁM</a></li>
+                                <li><a href="#" class="btn">THANH TOÁN VIỆN PHÍ NỘI TRÚ</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="list-dv-khambenh">
-                        <ul>
-                            <li><a href="#" >KHÁM THEO BÁC SỸ</a></li>
-                            <li><a href="#" >KHÁM THEO NGÀY</a></li>
-                            <li><a href="#">LỊCH TÁI KHÁM</a></li>
-                            <li><a href="#" >THANH TOÁN VIỆN PHÍ NỘI TRÚ</a></li>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="group g1">
+                                <div class="tittle">TRA CỨU THÔNG TIN</div>
+                                <div class="des">Tra cứu thông tin đặt chỗ, thông tin bệnh nhân, lịch khám ...</div>
+                                <div class="col-md-6 ml-auto" >
+                                    <button type="button" class="btn--rounded-blue btn--sm">Tra cứu</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="group g2">
+                                <div class="tittle">NHỮNG VẤN ĐỀ CẦN GẶP</div>
+                                <div class="des">Tìm những vấn đề thường gặp, trong quá trình khám và tái khám</div>
+                                <p><i class="fas fa-caret-right"></i>Quản lí thông tin bệnh nhân</p>
+                                <p><i class="fas fa-caret-right"></i>Quá trình khám bệnh và nhận phiếu khám bệnh</p>
+                                <p><i class="fas fa-caret-right"></i>Hoàn tất thanh toán</p>
+                                <a href="#">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 mx-lg-auto">
+                            <div class="tittle text-center">
+                                tải ứng dụng
+                                <span>UMC</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="download-app">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="download-ios text-center">
+                                    <a href="#">
+                                        <img src=".idea/image/app-store-badge-black.svg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="download-google text-center">
+                                    <a href="#">
+                                        <img src=".idea/image/stork-google-btn.svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div class="gr1 text-content-right">
+                                <span>Chủ động đặt lịch khám trong vòng 1 phút</span>
+                                <img src=".idea/image/calendar.svg">
+                            </div>
+                            <div class="gr1 text-content-right">
+                                <span>Thay đổi & cập nhật lịch khám bệnh</span>
+                                <img src=".idea/image/calendar.svg">
+                            </div>
+                            <div class="gr1 text-content-right">
+                                <span>Đặt lịch nhắc nhở uống thuốc</span>
+                                <img src=".idea/image/medicine.svg">
+                            </div>
+                        </li>
+                        <li class="text-center sm-hidden" >
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img  class="d-block w-100 " src=".idea/image/01.png" alt="" >
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img  class="d-block w-100" src=".idea/image/02.png" alt="" >
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img  class="d-block w-100" src=".idea/image/03.png" alt="k" >
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img  class="d-block w-100" src=".idea/image/04.png" alt="" >
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img  class="d-block w-100" src=".idea/image/05.png" alt="" w>
+                                    </div>
+                                </div >
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gr2 text-content-left">
+                                <img src=".idea/image/organic.svg">
+                                <span>Giao diện thân thiệt dễ sử dụng</span>
+
+                            </div>
+                            <div class="gr2 text-content-left">
+                                <img src=".idea/image/pay.svg">
+                                <span>Thanh toán nhanh chóng và tiện lợi</span>
+                            </div>
+                            <div class="gr2 text-content-left">
+                                <img src=".idea/image/care.svg">
+                                <span>Lưu trữ và theo dõi chính sức khỏe của chính bạn</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="support">
+                <div class="bg-gray-100">
+                    <div class="container space-2">
+                        <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
+                            <span class="sups">Hỗ trợ</span>
+                            <h2>Các hình thức hỗ trợ từ UMC Đặt Khám</h2>
+                            <p>Bệnh nhân chọn các hình thức dưới đây</p>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <div class="col-md-3 col-lg">
+                                <div class="d-block care-frame">
+                                    <img src=".idea/image/hospital.svg">
+                                    <h3 class="dark-text">Hỗ trợ chuyên môn</h3>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Gọi tổng đài">1900-7178</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg">
+                                <div  class="d-block care-frame">
+                                    <img src=".idea/image/phone-receiver.svg">
+                                    <h3 class="dark-text">Hỗ trợ kỹ thuật</h3>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Gọi tổng đài">1900-2267</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg">
+                                <div  class="d-block care-frame">
+                                    <img src=".idea/image/facebook-circular.svg">
+                                    <h3 class="dark-text">Fanpage Facebook</h3>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Fanpage Facebook">Bấm vào đây</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg">
+                                <div class="d-block care-frame">
+                                    <img src=".idea/image/zalo.umc.jpg">
+                                    <h3 class="dark-text">Hỗ trợ ZALO</h3>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Hỗ trợ ZALO">Bấm vào đây</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg">
+                                <div  class="d-block care-frame">
+                                    <img src=".idea/image/umc_mess_fb.png">
+                                    <h3 class="dark-text"> Chat vào đây</h3>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="FB Messenger">Bấm vào đây</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section >
+        <footer class="footer-classic">
+            <div class="footer-classic-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="unit">
+                                <div class="pic">
+                                    <a href="#" class="imglogo">
+                                        <img src=".idea/image/logo_test.png" style=" width: 80px; height: 80px; object-fit: cover;">
+                                    </a>
+                                </div>
+
+                                <div class="content" style="padding-left: 10px;">
+                                    <span>BỆNH VIỆN Y DƯỢC TP.HỒ CHÍ MINH<sup>®</sup></span>
+                                    <a href="#">215 Hồng Bàng, P.11, Q.5, TP.HCM</a>
+                                    <a href="#">ĐT: (028) 3855 4269</a>
+                                    <span>www.bvdaihoc.com.vn</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 th2">
+                            <ul>
+                                <li><a href="#">Liên hệ</a></li>
+                                <li><a href="#">Hỏi đáp</a></li>
+                                <li><a href="#">Điều khoản dịch vụ</a></li>
+                                <li><a href="#">Chính sách bảo mật</a></li>
+                                <li><a href="#">Quy định sử dụng</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 f-app-download">
+                            <ul >
+                                <li>
+                                    <a href="#">
+                                        <img src=".idea/image/bocongthuong.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src=".idea/image/20150827110756-dadangky.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src=".idea/image/medpro-white.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src=".idea/image/stork-google-btn.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src=".idea/image/app-store-badge-black.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mt-4 ">
+                        <div class="col-md-8 copy-right text-center m-auto">
+                            <span>© 2018 -  Bản quyền thuộc Công Ty Cổ Phần Ứng Dụng PKH </span>
+                            <span>Giấy CNĐKDN số 0314886357, do Sở Kế Hoạch và Đầu Tư Tp Hồ Chí Minh - cấp ngày 21/01/2019.</span>
+                            <span>Trụ sở: 97 Trần Quang Diệu, phường 14, quận 3, Tp Hồ Chí Minh.</span>
+                            <span>Điện thoại: (028) 710 78098</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-final">
+                <div class="container">
+                    <div class="layout">
+                        <ul class="footer-list">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Quy trình</a></li>
+                            <li><a href="#">THắc mắc</a></li>
+                            <li><a href="#">Liên hệ</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
+
     </div>
     
 </body>
