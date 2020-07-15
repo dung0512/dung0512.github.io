@@ -57,6 +57,46 @@
    .menu-collapse.active{
        display: block;
    }
+    .section3 ul li:nth-child(2){
+        display: none;
+    }
+    .section3 ul{
+        display: block;
+    }
+    .section3 ul li{
+        width: 100%;
+    }
+    .gr1 img{
+        order: 1;
+        text-align: left;
+    }
+    .gr1 img{
+
+    }
+    .section3 ul li .gr1 span{
+        text-align: left;
+        font-size: 16px;
+        width: 80%;
+        color: #4d4d4d;
+        order: 2;
+    }
+    .support col-lg{
+        display: block;
+    }
+    .support .row .col-md-3{
+        max-width: 33.3333%;
+        flex: 0 0 33.333333%
+    }
 
 
+}
+@media screen  and (max-height: 120px){
+    .fixedclass{
+        display: none;
+    }
+}
+@media screen  and (min-height: 121px){
+    .fixedclass{
+       display: block;
+    }
 }

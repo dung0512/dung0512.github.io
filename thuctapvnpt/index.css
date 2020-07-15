@@ -35,6 +35,9 @@
     color: #28a745;
     text-decoration: none;
 }
+.nav-top  li:last-child a:hover{
+    color: white;
+}
 .nav-bar{
     background: #fff;
     padding: 15px 5%;
@@ -246,7 +249,7 @@ button .close{
 }
 .g1:before{
     content: " ";
-    background:url(".idea/image/search.png")  no-repeat 50%;
+    background:url("image/search.png")  no-repeat 50%;
     width: 53px;
     height: 50px;
     position: absolute;
@@ -294,7 +297,7 @@ button .close{
 }
 .g2:before{
     content: " ";
-    background:url(".idea/image/troubles.png")  no-repeat 50%;
+    background:url("image/troubles.png")  no-repeat 50%;
     width: 53px;
     height: 50px;
     position: absolute;
@@ -329,7 +332,7 @@ button .close{
     text-decoration: none;
 }
 .section3{
-    background: url(".idea/image/s3-bg.png") #ffffff no-repeat ;
+    background: url("image/s3-bg.png") #ffffff no-repeat ;
     background-position:center;
     margin-bottom: 0px;
     padding: 40px 0 20px
@@ -392,7 +395,7 @@ button .close{
     order: 1;
 }
 .section3 ul li .slide{
-    background: url(".idea/image/bg-slide-mobile.png") top center no-repeat;
+    background: url("image/bg-slide-mobile.png") top center no-repeat;
     min-height: 520px;
     margin: 0 auto;
 }
@@ -416,6 +419,63 @@ button .close{
     background: #f8f9fb;
     border-top: 5px solid #e9ecef;
 
+}
+.fixedclass{
+    top:50%;
+    right: 5px;
+    background-color: #307be7;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 20;
+    position: fixed;
+    transform: translate(0%,-50%);
+
+}
+.fixedclass a{
+    display: block;
+    font-size: 1.4rem;
+    color:white ;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.fixedclass i{
+    display: block;
+    padding-bottom: 15px;
+}
+.fixedclass span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.fixedclass a span:last-child{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fixedclass a:last-child{
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 40%;
+    width: 40px;
+    cursor: pointer;
+    color: #307be7 !important;
+
+}
+.fixedclass a:last-child i:hover{
+    color: #28a745;
+}
+.fixedclass a:hover{
+    text-decoration: none;
+    color:  #28a745;
+}
+.sticky .fixedclass{
+    display: none;
 }
 .support{
     text-align: center;
@@ -445,7 +505,7 @@ button .close{
     height: auto;
     padding-right: 15px;
     padding-left: 15px;
-
+    margin-bottom: 20px;
 }
 .mb-9{
     margin-bottom: 4rem !important;
@@ -481,7 +541,7 @@ button .close{
     margin-block-end: 1em;
 }
 footer{
-    background: url(".idea/image/footer-bg.png") no-repeat top;
+    background: url("image/footer-bg.png") no-repeat top;
     color: white;
     background-color: #307be7;
     margin-top: auto;
