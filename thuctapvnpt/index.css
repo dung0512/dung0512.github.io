@@ -40,7 +40,7 @@
 }
 .nav-bar{
     background: #fff;
-    padding: 15px 5%;
+    padding: 15px 7% 15px 6%;
 }
 .nav-bar ul{
     list-style: none;
@@ -424,7 +424,7 @@ button .close{
     top:50%;
     right: 5px;
     background-color: #307be7;
-    display: block;
+    display: none;
     padding: 10px;
     border-radius: 5px;
     z-index: 20;
@@ -457,8 +457,8 @@ button .close{
     font-size: 16px;
     font-weight: 700;
 }
-.fixedclass a:last-child{
-    display: block;
+.fixedclass .arrow-change{
+    display: inline-block;
     position: absolute;
     bottom: -45px;
     left: 40%;
@@ -466,15 +466,19 @@ button .close{
     cursor: pointer;
     color: #307be7 !important;
 
+
 }
-.fixedclass a:last-child i:hover{
+.fixedclass .arrow-change a:hover{
+    color: #32f853 !important;
+}
+.fixedclass .arrow-change i:hover{
     color: #28a745;
 }
 .fixedclass a:hover{
     text-decoration: none;
     color:  #28a745;
 }
-.sticky .fixedclass{
+.arrow-change i:last-child{
     display: none;
 }
 .support{
@@ -676,10 +680,15 @@ footer{
     width: 100%;
     z-index: 554;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border-bottom: 1px solid #cdd8ea;
     transition: all 0.2s ease;
     left: 0;
+    text-align: left;
+}
+.nav-mobile .container{
+    padding-left: 0px;
+    width: 100%;
 }
 .menu-toggler{
     background: none;
@@ -690,7 +699,7 @@ footer{
     outline: none;
     z-index: 999;
     display: block;
-    vertical-align: top;
+ 
 }
 
 .menu-toggler span{

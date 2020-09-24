@@ -1,9 +1,10 @@
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 991px){
     .nav-mobile{
         display: none;
     }
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
+   
     .nav-top{
         display: none;
     }
@@ -70,9 +71,6 @@
         order: 1;
         text-align: left;
     }
-    .gr1 img{
-
-    }
     .section3 ul li .gr1 span{
         text-align: left;
         font-size: 16px;
@@ -87,16 +85,11 @@
         max-width: 33.3333%;
         flex: 0 0 33.333333%
     }
-
+   .main .alert{
+       padding-top: 80px;
+   }
 
 }
-@media screen  and (max-height: 120px){
-    .fixedclass{
-        display: none;
-    }
-}
-@media screen  and (min-height: 121px){
-    .fixedclass{
-       display: block;
-    }
+@media screen  and (max-width:564px){
+    
 }
