@@ -195,5 +195,6 @@ function random1() {
     fetchMusicInfo();
 }
 function likesong() {
-    $("#like i").toggleClass("likesong1");
+  $("i").toggleClass("active");
+  
 }
