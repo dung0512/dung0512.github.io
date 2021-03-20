@@ -239,6 +239,7 @@ button {
     height: 16px;
     width: 16px;
 }
-.likesong1 {
-    color: red;
+.button .like i.active {
+  color: red;
 }
+
