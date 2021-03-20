@@ -36,8 +36,12 @@ audio.src = dir + playlist[index] + ext;
 audio.loop = false;
 playlist_status.innerHTML = title[index];
 playlist_artist.innerHTML = artist[index];
-audio.play();
-audio.muted=false;
+window.onload = function() {
+  var context = new AudioContext();
+  audio.play();
+  audio.muted=false;
+}
+
 
 //them su kien
 playbtn.addEventListener("click", playPause);
