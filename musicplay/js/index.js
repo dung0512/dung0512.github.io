@@ -37,6 +37,7 @@ audio.loop = false;
 playlist_status.innerHTML = title[index];
 playlist_artist.innerHTML = artist[index];
 audio.play();
+audio.muted=false;
 
 //them su kien
 playbtn.addEventListener("click", playPause);
