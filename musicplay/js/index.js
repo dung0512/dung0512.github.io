@@ -38,9 +38,14 @@ playlist_status.innerHTML = title[index];
 playlist_artist.innerHTML = artist[index];
 window.onload = function() {
   var context = new AudioContext();
-  audio.play();
-  audio.muted=false;
+  
 }
+document.querySelector('button').addEventListener('click', function() {
+  context.resume().then(() => {
+    console.log('Playback resumed successfully');
+  });
+});
+audio.play();
 
 
 //them su kien
