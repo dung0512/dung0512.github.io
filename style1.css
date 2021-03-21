@@ -91,19 +91,7 @@ header{
     height: auto;
     object-fit: cover;
 }
-.box{
-    top:50px;
-    right: 0px;
-    position: absolute;
-    width: 20%;
-    height: 0%;
-    overflow: hidden;
-    border-right: 2px solid #02d871;
-    border-bottom: 2px solid #02d871;
-    border-top:2px solid #02d871 ;
-    z-index: 10;
-    display: block;
-}
+
 .imag-text{
     position: absolute;
     
